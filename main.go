@@ -7,6 +7,6 @@ import (
 
 func main() {
 	if err := apiserver.Start(); err != nil {
-		log.Fatal(err)
+		log.Info(err)
 	}
 }
